@@ -35,15 +35,6 @@ app.use('/api/rapport', rapportRoutes);
 app.use('/api/localisation', localisationRoutes);
 app.use('/api/inspection', inspectionRoutes);
 
-
-
-const path = require('path')
-if(process.env.NODE_ENV==='production')
-{
-    app.use('/' ,express.static('client/build') )
-}
-
-
 // server
 app.listen(process.env.PORT, () =>{
     console.log('Listening on port ${process.env.PORT}');
