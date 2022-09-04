@@ -1,0 +1,26 @@
+.motdepass_input{
+   
+    
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    padding-top: 5px;
+}
+.password_input input{
+   
+    
+}
+
+.pass_has_error {
+    border: 1px solid var(--pcolor);
+}
+
+.icon_eye {
+    font-size: 20px;
+    cursor: pointer;
+    color:#858585 ;
+}
+
+.pass_error {
+    color: var(--pcolor);
+}

@@ -1,0 +1,35 @@
+.service-wraper{
+    background-color: #ebf4fc;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.service-wraper .icon-wrap{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    background-color: #78adde;
+    text-align: center;
+    top: -25px;
+    left: 25px;
+}
+
+.service-wraper .service-title{
+    margin-top: 20px;
+    font-weight: 600;
+}
+hr{
+    color: #fff;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+}
+@media (max-width: 992px) and (min-width: 768px)  {
+   
+}
+@media (max-width:767px){
+    
+}

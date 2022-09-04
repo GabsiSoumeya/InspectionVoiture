@@ -1,0 +1,249 @@
+.MDPreset{
+    background: white;
+    position: absolute;
+    top:24%;
+    left: 35%;
+    width: 29%;
+    height: 43%;
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 15px 15px 20px #00000021;
+    opacity: 1;
+}
+.MDPreset h6 {
+    text-align: center;
+    color: #202954;
+    
+  }
+  #btnannuler {
+    color: #202954;
+    background-color: #fff;
+    border-radius: 6px;
+    border-color: #202954;
+    border: 0.5px solid;
+    display: flex;
+    position: absolute;
+     
+    
+}
+.MDPreset button{
+    background-color: #202954;
+  border: #202954;
+  color: #ffffff;
+  border-radius: 5px;
+  height: 40px;
+  position: absolute;
+  margin: 32px;
+  font-weight: bold;
+  width: 70%;
+  padding: 2px 2px;
+  margin-left: 0;
+
+}
+.MDPreset   .annuler button{
+  background-color: #ffffff;
+  border:1px solid #202954;
+  color: #202954;
+  border-radius: 5px;
+  height: 40px;
+  position: absolute;
+  margin: 32px;
+  font-weight: bold;
+  width: 70%;
+  padding: 2px 2px;
+  margin-left: 0;
+
+}
+.MDPreset input{
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+  margin-top: 9px;
+  border-bottom: 1px solid lightgray;
+}
+
+
+
+@media  (max-width: 1199px) and (min-width: 992px){
+  .MDPreset{
+    background: white;
+    position: absolute;
+    top:24%;
+    left: 35%;
+    width: 30%;
+    height: 45%;
+    border-radius: 10px;
+    padding: 45px;
+    box-shadow: 15px 15px 20px #00000021;
+    opacity: 1;
+}
+.MDPreset h6 {
+    text-align: center;
+    color: #202954;
+  }
+  #btnannuler {
+    color: #202954;
+    background-color: #fff;
+    border-radius: 6px;
+    border-color: #202954;
+    border: 0.5px solid;
+    display: flex;
+    position: absolute;
+    height: 35px;
+     
+    
+}
+.MDPreset button{
+  
+  height: 35px;
+  position: absolute;
+  margin: 30px;
+  font-weight: bold;
+  width: 60%;
+  padding: 2px 2px;
+  margin-left: 0;
+  left: 20%;
+
+}
+.MDPreset   .annuler button{
+  height: 35px;
+  width: 60%;
+}
+
+}
+
+
+
+
+
+
+@media (max-width: 991px) and (min-width: 768px){
+  .MDPreset{
+    
+    top:24%;
+    left: 35%;
+    width: 35%;
+    height: 45%;
+    padding: 42px;
+   
+}
+.MDPreset h6 {
+    text-align: center;
+    color: #202954;
+  }
+  #btnannuler {
+    color: #202954;
+    background-color: #fff;
+    border-radius: 6px;
+    border-color: #202954;
+    border: 0.5px solid;
+    display: flex;
+    position: absolute;
+    height: 35px;
+     
+}
+.MDPreset button{
+  
+  height: 35px;
+  position: absolute;
+  margin: 30px;
+  font-weight: bold;
+  width: 60%;
+  padding: 2px 2px;
+  margin-left: 0;
+  left: 20%;
+
+}
+.MDPreset   .annuler button{
+  height: 35px;
+  width: 60%;
+}
+
+.b-left-wrapper h1{
+    position: absolute;
+    width: 250px;
+    top: 25%;
+    left: 3%;
+    color: #fff;
+    text-align: center;
+}
+.b-left-wrapper h2{
+    position: absolute;
+    text-align: center;
+    top: 49%;
+    left: 0%;
+    color: #fff;
+    width: 35%;
+}
+.b-left-wrapper  p {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 59%;
+    left: 2%;
+    width: 29%;
+}
+
+
+
+}
+@media (max-width:767px){
+  .MDPreset{
+    
+    top:24%;
+    left: 33%;
+    width: 42%;
+    height: 45%;
+    padding: 43px;
+   
+}
+.MDPreset h6 {
+    text-align: center;
+    color: #202954;
+  }
+  #btnannuler {
+    color: #202954;
+    background-color: #fff;
+    border-radius: 6px;
+    border-color: #202954;
+    border: 0.5px solid;
+    display: flex;
+    position: absolute;
+    height: 35px;
+     
+}
+.MDPreset button{
+  
+  height: 35px;
+  position: absolute;
+  margin: 30px;
+  font-weight: bold;
+  width: 60%;
+  padding: 2px 2px;
+  margin-left: 0;
+  left: 20%;
+
+}
+.MDPreset   .annuler button{
+  height: 35px;
+  width: 60%;
+}
+
+.b-left-wrapper h1{
+    display: none;
+   
+}
+.b-left-wrapper h2{
+   display: none;
+}
+.b-left-wrapper  p {
+    top: 52%;
+    left: 1%;
+    width: 29%;
+}
+
+ 
+
+
+}

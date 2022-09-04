@@ -1,0 +1,301 @@
+.authlogin {
+  background: white;
+  position: absolute;
+  top: 90px;
+  left: 35%;
+  width: 29%;
+  height: 80%;
+  border-radius: 10px;
+  padding: 60px;
+  box-shadow: 15px 15px 20px #00000021;
+  opacity: 1;
+}
+.input_auth {
+  width: 100%;
+}
+.sp {
+  color: #6de2d9;
+  text-align: center;
+  margin-top: 8%;
+  cursor: pointer;
+  margin-bottom: 30%;
+}
+.btconex {
+  margin-top: 50%;
+}
+.authlogin  h6 {
+  color: #202954;
+  font-weight: bold;
+  text-align: center;
+}
+.authlogin button {
+  background-color: #202954;
+  border: #202954;
+  color: #ffffff;
+  border-radius: 5px;
+  height: 40px;
+  position: absolute;
+  margin: 50px;
+  font-weight: bold;
+  width: 70%;
+  padding: 2px 2px;
+  margin-left: 0;
+}
+.authlogin  .social button {
+  background-color: #ffff;
+  color: #202954;
+  box-shadow:0px 3px 6px #00000021;
+  font-weight: bold;
+  margin-left: 36px;
+  margin-top: 10%;
+  width: 55%;
+  
+  
+}
+.spa button{
+    font-weight: bold;
+    font-size: 100;
+    width: 70%;
+    padding: 2px 2px;
+    margin-left: 0;
+
+}
+.authlogin  .ou{
+    width: 100%;
+    height: 1px;
+    background-color: lightslategray;
+    position: relative;
+    
+
+}
+.authlogin  input{
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+  margin-top: 9px;
+  border-bottom: 1px solid lightgray;
+}
+
+.haserror{
+  color:red;
+ padding-left: 16px;
+}
+.lignelog .ou{
+      color: #858585;
+}
+.lignelog .ou .or{
+    text-align: center;
+    background-color: #ffff;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 40%;
+    top: -11px;
+    color: #858585;
+   
+}
+.motlink p{
+    color: #F0B25D;
+    position: absolute;
+    top: 59%;
+    left: 24%;
+    font-weight: bold;
+    
+    
+   
+}
+
+@media (max-width:1440px) and (min-width: 1024px){
+  .motlink p {
+    color: #f0b25d;
+    position: absolute;
+    top: 59%;
+    left: 26%;
+    font-weight: bold;
+  }
+  .lignelog .ou .or{
+    text-align: center;
+    background-color: #ffff;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 40%;
+    top: -8px;
+    color: #858585;
+   
+}
+.authlogin  .ou{
+  width: 100%;
+  height: 1px;
+  background-color: lightslategray;
+  position: relative;
+  top: 15px;
+  
+
+}
+
+}
+@media  (max-width: 1199px) and (min-width: 992px){
+  .auth {
+    background: white;
+    position: absolute;
+    top: 90px;
+    left: 35%;
+    width: 35%;
+    height: 80%;
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 15px 15px 20px #00000021;
+    opacity: 1;
+  }
+  
+  .motlink p {
+    color: #f0b25d;
+    position: absolute;
+    top:65%;
+    left: 15%;
+    font-weight: bold;
+  }
+  .lignelog .ou .or{
+    text-align: center;
+    background-color: #ffff;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 40%;
+    top: -8px;
+    color: #858585;
+   
+}
+.auth .ou{
+  width: 100%;
+  height: 1px;
+  background-color: lightslategray;
+  position: relative;
+  top: 15px;
+  
+
+}
+.auth .social button {
+  background-color: #ffff;
+  color: #202954;
+  box-shadow:0px 3px 6px #00000021;
+  font-weight: bold;
+  margin-left: 36px;
+  margin-top: 10%;
+  width: 55%;
+  
+  
+}
+}
+@media (max-width: 991px) and (min-width: 768px){
+  .authlogin  {
+    background: white;
+    position: absolute;
+    top: 90px;
+    left: 35%;
+    width: 42%;
+    height: 80%;
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 15px 15px 20px #00000021;
+    opacity: 1;
+  }
+ 
+  .motlink p {
+    color: #f0b25d;
+    position: absolute;
+    top:65%;
+    left: 15%;
+    font-weight: bold;
+  }
+  .lignelog .ou .or{
+    text-align: center;
+    background-color: #ffff;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 40%;
+    top: -8px;
+    color: #858585;
+   
+}
+.authlogin  .ou{
+  width: 100%;
+  height: 1px;
+  background-color: lightslategray;
+  position: relative;
+  top: 20px;
+  
+
+}
+.authlogin  .social button {
+  background-color: #ffff;
+  color: #202954;
+  box-shadow:0px 3px 6px #00000021;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 15%;
+  width: 56%;
+  
+  
+}
+
+
+}
+@media (max-width:767px){
+  .authlogin  {
+    background: white;
+    position: absolute;
+    top: 80px;
+    left: 28%;
+    width: 50%;
+    height: 80%;
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 15px 15px 20px #00000021;
+    opacity: 1;
+  }
+  .motlink p {
+    
+    top:65%;
+    left: 10%;
+    
+  }
+  .lignelog .ou .or{
+    text-align: center;
+    background-color: #ffff;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 40%;
+    top: -7px;
+    color: #858585;
+   
+}
+.authlogin  .ou{
+  width: 100%;
+  height: 1px;
+  background-color: lightslategray;
+  position: relative;
+  top: 23px;
+  
+
+}
+.authlogin  .social button {
+  background-color: #ffff;
+  color: #202954;
+  box-shadow:0px 3px 6px #00000021;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 15%;
+  width: 56%;
+  
+  
+}
+
+
+
+}
+

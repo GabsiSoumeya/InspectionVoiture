@@ -1,27 +1,38 @@
-//import logo from './logo.svg';
-import './App.css';
-//import { Router } from 'express';
-import {BrowserRouter, Route } from 'react-router-dom';
-
+import React from 'react';
 import Home from './pages/Home';
-import DemanderInspection from './pages/DemanderInspection';
+import Inscription from './pages/Inscription';
 import Login from './pages/Login';
-//import Register from './pages/FormInput';
-import FormInput from './pages/Register';
+import ResetMDP from './pages/ResetMDP';
+import {Demande} from './pages/Demande';
+import './App.css';
+import {BrowserRouter,Routes,Route,} from "react-router-dom";
+import NouvMDP from './pages/NouvMDP';
 
-function App() {
+ function App() {
+ 
+
+ 
+
+
   return (
-    <div className="App">
-   <BrowserRouter>
+    <div className="app">
+ 
+<BrowserRouter>
+    <Routes>
+      <Route path="/" exact element={<Home />}/>
+      <Route path="/Inscription" element={<Inscription />}/>
+      <Route path="/login" element={<Login />}/>
+      <Route path="/demandeinspection" element={<Demande />}/>
+      <Route path="resetpassword" element={<ResetMDP />}/>
+      <Route path="NouvMDP" element={<NouvMDP />}/>
 
-   <Route path='/' element={<Home />} /> 
-   <Route path='/Login' element={<Login />} /> 
-   <Route path='/FormInput' element={<FormInput />} /> 
-   <Route path='/DemanderInspection' element={<DemanderInspection />} /> 
+      </Routes>
+  </BrowserRouter>
+ 
+  </div>
 
-   </BrowserRouter>
-    </div>
+
   );
-}
+};
 
 export default App;

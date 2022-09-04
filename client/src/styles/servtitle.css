@@ -1,0 +1,15 @@
+.servtitle {
+    margin-top: 40px;
+  }
+  .servtitle h1{
+      font-size: 22px;
+    padding-top: 19px;
+    text-align: center;
+    color: #232B4F;
+  }
+  .servtitle p {
+    text-align: center;
+    font-size: 15px;
+    color: #526C94;
+  }
+  

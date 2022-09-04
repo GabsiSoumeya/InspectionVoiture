@@ -1,0 +1,314 @@
+.INSCR {
+  background: white;
+  position: absolute;
+  top: 90px;
+  left: 35%;
+  width: 29%;
+  height: 80%;
+  border-radius: 10px;
+  padding: 60px;
+  box-shadow: 15px 15px 20px #00000022;
+  opacity: 1;
+}
+.INSCR input{
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+  margin-top: 9px;
+  border-bottom: 1px solid rgb(202, 195, 195);
+}
+.INSCR.chbox input{
+  
+  width: auto;
+  margin-top: 18px;
+ 
+
+  
+}
+
+.haserror{
+  color:red;
+ padding-left: 16px;
+}
+
+.INSCR h6 {
+  text-align: center;
+  color: #202954;
+  font-weight: bold;
+}
+.INSCR button {
+  background-color: #202954;
+  border: #202954;
+  color: #ffffff;
+  border-radius: 5px;
+  height: 40px;
+  position: absolute;
+  margin: 50px;
+  font-weight: bold;
+  width: 70%;
+  padding: 2px 2px;
+  margin-left: 0;
+}
+
+
+.INSCR .chbox button {
+  margin-top: 23%;
+
+}
+
+.motlinkk p{
+  color: #F0B25D;
+  position: absolute;
+  top: 59%;
+  left: 24%;
+  font-weight: bold;
+}
+.b-left{
+  flex: 1;
+}
+
+.b-left-wrapper{
+  background: #202954;
+  
+}
+.b-left-wrapper h1{
+  position: absolute;
+  width: 280px;
+  top: 25%;
+  left: 7%;
+  color: #fff;
+  text-align: center;
+  width: 20%;
+}
+.b-left-wrapper h2{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 9%;
+  color: #fff;
+}
+.b-left-wrapper  p {
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  top: 58%;
+  left: 9%;
+}
+
+.b-left-wrapper a  p{
+  color: #F0B25D;
+  position: absolute;
+  text-align: center;
+  top: 58%;
+  left: 23%;
+  font-weight: bold;
+
+}
+.b-image{
+  width:100.5%;
+  height: 100vh;
+  opacity:0.3;
+  position: relative;
+}
+
+
+
+@media (max-width:1440px) and (min-width: 1024px){
+  .motlinkk p {
+    color: #F0B25D;
+    position: absolute;
+    top: 59%;
+    left: 26%;
+    font-weight: bold;
+  }
+
+}
+@media (min-width:1200px){
+  .INSCR {
+    background: white;
+    position: absolute;
+    top: 90px;
+    left: 35%;
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 15px 15px 20px #00000021;
+    opacity: 1;
+  }
+  .INSCR .chbox button {
+    margin-top: 25%;
+  }
+
+  .b-left-wrapper h1{
+    position: absolute;
+    width: 270px;
+    top: 25%;
+    left: 2%;
+    color: #fff;
+    text-align: center;
+    width: 30%;
+}
+.b-left-wrapper h2{
+    position: absolute;
+    text-align: center;
+    top: 49%;
+    left: 0%;
+    color: #fff;
+    width: 35%;
+}
+.b-left-wrapper  p {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 59%;
+    left: 2%;
+    width: 30%;
+}
+
+}
+
+
+@media  (max-width: 1199px) and (min-width: 992px){
+  .INSCR {
+    background: white;
+    position: absolute;
+    top: 90px;
+    left: 35%;
+    width: 35%;
+    height: 80%;
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 15px 15px 20px #00000021;
+    opacity: 1;
+  }
+  .INSCR .chbox button {
+    margin-top: 25%;
+  }
+  .motlinkk p {
+    color: #f0b25d;
+    position: absolute;
+    top:65%;
+    left: 15%;
+    font-weight: bold;
+  }
+
+  .b-left-wrapper h1{
+    position: absolute;
+    width: 280px;
+    top: 25%;
+    left: 2%;
+    color: #fff;
+    text-align: center;
+    width: 32%;
+}
+.b-left-wrapper h2{
+    position: absolute;
+    text-align: center;
+    top: 49%;
+    left: 0%;
+    color: #fff;
+    width: 35%;
+}
+.b-left-wrapper  p {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 59%;
+    left: 2%;
+    width: 30%;
+}
+
+}
+@media (max-width: 991px) and (min-width: 768px){
+  .INSCR {
+    background: white;
+    position: absolute;
+    top: 90px;
+    left: 35%;
+    width: 42%;
+    height: 80%;
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 15px 15px 20px #00000021;
+    opacity: 1;
+  }
+  .INSCR .chbox button {
+    margin-top: 30%;
+  }
+  .motlinkk p {
+    color: #f0b25d;
+    position: absolute;
+    top:65%;
+    left: 15%;
+    font-weight: bold;
+  }
+
+  .b-left-wrapper h1{
+    position: absolute;
+    width: 250px;
+    top: 25%;
+    left: 3%;
+    color: #fff;
+    text-align: center;
+}
+.b-left-wrapper h2{
+    position: absolute;
+    text-align: center;
+    top: 49%;
+    left: 0%;
+    color: #fff;
+    width: 35%;
+}
+.b-left-wrapper  p {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 59%;
+    left: 2%;
+    width: 29%;
+}
+
+
+}
+@media (max-width:767px){
+  .INSCR {
+    background: white;
+    position: absolute;
+    top: 80px;
+    left: 28%;
+    width: 50%;
+    height: 80%;
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 15px 15px 20px #00000021;
+    opacity: 1;
+  }
+  .INSCR .chbox button {
+    margin-top: 30%;
+  }
+  .motlinkk p {
+   
+    top:65%;
+    left: 10%;
+    
+  }
+
+  .b-left-wrapper h1{
+    display: none;
+   
+}
+.b-left-wrapper h2{
+   display: none;
+}
+.b-left-wrapper  p {
+  color: #fff;
+  position: absolute;
+  text-align: center;
+    top: 52%;
+    left: 1%;
+    width: 29%;
+}
+
+}

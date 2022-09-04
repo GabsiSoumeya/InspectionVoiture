@@ -1,0 +1,94 @@
+.navbarmiddle {
+    width: 96.2%;
+    margin-left: 58px;
+    background-color:#fff;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 65px;
+    margin-top: 0px;
+  }
+  .logotwo {
+    margin-left: 10%;
+    cursor: pointer;
+    width: 100px;
+  }
+  .navbarmiddle ul {
+    display: inline-block;
+    padding-left: 65%;
+    margin-right: 0%;
+  }
+  .navbarmiddle ul li {
+    list-style: none;
+    color: #202954;
+    display: inline-block;
+    padding: 8px;
+  }
+  .navbarmiddle ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .navbarmiddle button {
+    width: 160px;
+    text-align: center;
+    background-color: #6DE2D9;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid #FFFFFF ;
+    color: #202954;
+    cursor: pointer;
+    padding: 6px 6px;
+  }
+  @media (min-width:1200px){
+    .navbarmiddle ul {
+      display: inline-block;
+      padding-left: 62%;
+    }
+    .navbarmiddle ul li {
+      list-style: none;
+      color: #202954;
+      display: inline-block;
+      padding: 6px;
+    }
+    .navbarmiddle ul li a {
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    } 
+  
+  }
+  
+  @media (max-width: 1199px) and (min-width: 992px){
+  .navbarmiddle ul {
+    display: inline-block;
+    padding-left: 52%;
+  }
+  .navbarmiddle ul li {
+    list-style: none;
+    color: #202954;
+    display: inline-block;
+    padding: 6px;
+  }
+  
+  
+  }
+  @media (max-width: 991px) and (min-width: 768px){
+  
+  .navbarmiddle ul {
+    display: inline-block;
+    padding-left: 40%;
+  }
+  .navbarmiddle ul li {
+    list-style: none;
+    color: #202954;
+    display: inline-block;
+    padding: 6px;
+  }
+  
+  
+  }
+  @media (max-width:767px){
+  
+  
+  }

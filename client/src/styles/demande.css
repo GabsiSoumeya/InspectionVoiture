@@ -1,0 +1,393 @@
+@import "~antd/dist/antd.css";
+label {
+  width: 100%; 
+}
+.slider-demande {
+  background-color: #202954;
+  min-height: 650px;
+}
+
+.steps-content {
+  min-height: 300px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+  background-color: #2b345d;
+  border-radius: 10px;
+}
+.step-wrapper {
+  background-color: #202954;
+
+  border-radius: 10px;
+}
+
+.steps-action {
+  margin-top: 24px;
+}
+.title h3 {
+  padding-top: 20px;
+  color: #fff;
+}
+
+.information input {
+  color: white;
+  
+}
+.localisation input{
+  color: white;
+}
+.besoin h6 {
+  color: #fff;
+  font-size: 13px;
+  
+  text-align: center;
+}
+.besoin p {
+  color: #6de2d9;
+  text-align: center;
+  font-size: 10px;
+}
+.besoin .area {
+  border-radius: 3px;
+  background-color: #2b345d;
+  outline: white;
+  resize: none;
+  padding: 12px 20px;
+  color: white;
+  width: 100%;
+  height: 100%;
+  margin: 20px 20px;
+}
+
+
+
+.ins {
+  position: absolute;
+  top: 35%;
+  left: 48%;
+}
+
+.ins h3 {
+  color: #fff;
+  font-size: 25px;
+}
+.ins p {
+  color: #fff;
+  font-size: 10px;
+}
+/* color icons */
+.custom-item-step
+  .ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-icon {
+  background: #f0b25d;
+  border-color: #f0b25d;
+}
+.ant-steps-item-wait .ant-steps-item-icon {
+  background-color: #a1a5b7;
+  border-color: #a1a5b7;
+}
+/* color titre */
+.ant-steps-item-title {
+
+  font-size: 13px;
+  font-weight: 300;
+}
+.custom-item-step
+  .ant-steps-item-wait
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: #a1a5b7;
+}
+.custom-item-step
+  .ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: #f0b25d;
+  
+}
+.custom-item-step
+  .ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: #f0b25d;
+ 
+}
+
+.ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  background-color: #f0b25d;
+}
+/* color icon tick */
+.custom-item-step
+  .ant-steps-item-finish
+  .ant-steps-item-icon
+  > .ant-steps-icon {
+  color: #f0b25d;
+  
+}
+.custom-item-step .ant-steps-item-finish .ant-steps-item-icon {
+  background-color: #f0b25d;
+  border: 1px solid #f0b25d;
+}
+/* circle width */
+.custom-item-step .ant-steps-item-icon {
+  width: 20px;
+  height: 20px;
+  line-height: 32px;
+  text-align: center;
+
+}
+
+.ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon {
+  color: #a1a5b7;
+  
+}
+.custom-item-step
+  .ant-steps-item-container
+  .ant-steps-item-icon
+  .ant-steps-icon {
+  position: absolute;
+  top: 40%;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+.custom-item-step .ant-steps-item-container .ant-steps-item-title {
+  position: relative;
+  display: inline-block;
+  padding-right: 16px;
+  line-height: 32px;
+  padding-top: 5%;
+}
+
+
+/* titre aligne */
+.custom-item-step .ant-steps-item-content {
+  display: list-item;
+  vertical-align: top;
+}
+.custom-item-step .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  color: #f0b25d;
+  
+}
+
+/* ligne color entre les titres */
+.custom-item-step
+  .ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title::after {
+  background-color: #202954;
+}
+.custom-item-step
+  .ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title::after {
+  background-color: #202954;
+}
+.custom-item-step
+  .ant-steps-item-wait
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title::after {
+  background-color: #202954;
+}
+/* color ligne en attente et en process */
+.ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-tail::after {
+  background-color: #a1a5b7;
+}
+.ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  background-color: #a1a5b7;
+}
+/* buttons */
+
+ .custom-item-step .steps-action .retour button{
+  position: absolute;
+    left: 8%;
+    background-color: #202954;
+    outline: none;
+    border: none;
+    width: 90px;
+    color: #f0b25d;
+    text-align:center;
+    top: 80%;
+    
+  
+    
+} 
+.custom-item-step .steps-action .retourdisabled button{
+  position: absolute;
+    left: 8%;
+    background-color: #202954;
+    outline: none;
+    border: none;
+    width: 90px;
+    text-align:center;
+    color: #574d56;
+    top: 80%;
+    
+    
+} 
+.custom-item-step .steps-action button {
+  position: relative;
+  text-align:center;
+  left: 89%;
+    background-color: #F0B25D;
+    border-radius: 6px;
+    border:none;
+    width: 90px;
+    height: 30px;
+    color: #fff;
+    
+} 
+
+.custom-item-step
+  .ant-steps-horizontal:not(.ant-steps-label-vertical)
+  .ant-steps-item-tail {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  width: 200%;
+  padding: 0;
+}
+/* ligne entre les icons circle */
+.custom-item-step
+  .ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  background-color: #f0b25d;
+}
+.custom-item-step .ant-steps {
+  color: #a1a5b7;
+}
+
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon .ant-steps-icon {
+  color: #f0b25d;
+}
+
+@media (max-width:1200px){
+  .custom-item-step .steps-action .retour button{
+    position: absolute;
+      left: 8%;
+      background-color: #202954;
+      outline: none;
+      border: none;
+      width: 90px;
+      color: #f0b25d;
+      text-align:center;
+      top: 90%;
+      
+  } 
+  .custom-item-step .steps-action .retourdisabled button{
+    position: absolute;
+      left: 8%;
+      background-color: #202954;
+      outline: none;
+      border: none;
+      width: 90px;
+      text-align:center;
+      color: #574d56;
+      top: 90%;
+      
+      
+  } 
+
+}
+@media  (max-width: 1199px) and (min-width: 992px){
+
+ .custom-item-step .steps-action .retour button{
+  position: absolute;
+    left: 8%;
+    background-color: #202954;
+    outline: none;
+    border: none;
+    width: 90px;
+    color: #f0b25d;
+    text-align:center;
+    top: 90%;
+    
+} 
+.custom-item-step .steps-action .retourdisabled button{
+  position: absolute;
+    left: 8%;
+    background-color: #202954;
+    outline: none;
+    border: none;
+    width: 90px;
+    text-align:center;
+    color: #574d56;
+    top: 90%;
+    
+    
+} 
+  
+
+}
+@media (max-width: 991px) and (min-width: 768px){
+  .custom-item-step .steps-action .retour button{
+    position: absolute;
+      left: 8%;
+      background-color: #202954;
+      outline: none;
+      border: none;
+      width: 90px;
+      color: #f0b25d;
+      text-align:center;
+      top: 90%;
+      
+  } 
+  .custom-item-step .steps-action .retourdisabled button{
+    position: absolute;
+      left: 8%;
+      background-color: #202954;
+      outline: none;
+      border: none;
+      width: 90px;
+      text-align:center;
+      color: #574d56;
+      top: 90%;
+      
+      
+  } 
+
+ 
+  
+
+}
+@media (max-width:767px){
+  .custom-item-step .steps-action .retour button{
+    position: absolute;
+      left: 8%;
+      background-color: #202954;
+      outline: none;
+      border: none;
+      width: 90px;
+      color: #f0b25d;
+      text-align:center;
+      top: 90%;
+      
+  } 
+  .custom-item-step .steps-action .retourdisabled button{
+    position: absolute;
+      left: 8%;
+      background-color: #202954;
+      outline: none;
+      border: none;
+      width: 90px;
+      text-align:center;
+      color: #574d56;
+      top: 90%;
+      
+      
+  } 
+
+    
+}

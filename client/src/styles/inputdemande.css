@@ -1,0 +1,33 @@
+.label {
+  color: #ffffff;
+  width: 100%;
+}
+
+.inputdemande {
+  padding: 0 10px;
+  margin-bottom: 10px;
+ 
+}
+
+.Input-demande {
+  height: 45px;
+  width: 100%;
+  border-radius: 4px;
+  border: 2px solid #5e6584;
+  padding-left: 10px;
+  background-color: #2b345d;
+  outline: #5e6584;
+  margin-top: 20px;
+}
+.inputdemande .ico-wrap{
+    color: #F0B25D;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 43%;
+    
+    
+  
+}
+.haserror{
+  color: red;
+}

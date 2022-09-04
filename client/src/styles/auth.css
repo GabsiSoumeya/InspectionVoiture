@@ -1,0 +1,19 @@
+.input_r{
+    
+    padding: 0 10px;
+    padding-top: 5px;
+
+}
+.Input{
+    border: none;
+    border-left: none;
+    outline: none;
+    width: 100%;
+  
+}
+.has_error{
+    border:1px solid var(--pcolor);
+}
+.error_message{
+    color:var(--pcolor)
+}

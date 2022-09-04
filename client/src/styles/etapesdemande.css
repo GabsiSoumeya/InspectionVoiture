@@ -1,0 +1,63 @@
+.ph{
+    position: absolute;
+   padding: 50px;
+   left: 70%;
+   top: 45%;
+   width: 25%;
+   
+  }
+
+.ins{
+    width: 50%;
+}
+.ins .ques-p{
+    color: #0db12e;
+  
+}
+@media (min-width:1200px){
+    .ph{
+        position: absolute;
+       padding: 50px;
+       left: 70%;
+       top: 48%;
+       width: 25%;
+       
+      }
+  
+  }
+  
+@media (max-width: 1199px) and (min-width: 992px){
+    .ph{
+       position: absolute;
+       padding: 50px;
+       left: 70%;
+       top: 52%;
+       width: 29%;
+       
+      }
+  
+  }
+@media (max-width: 991px) and (min-width: 768px){
+    .ph{
+        position: absolute;
+       padding: 50px;
+       left: 70%;
+       top: 58%;
+       width: 30%;
+       
+      }
+  
+  
+  }
+@media(max-width:767px){
+    .ph{
+       display: none;
+       
+      }
+      .ins{
+      display: none;
+    }
+    
+  
+
+}

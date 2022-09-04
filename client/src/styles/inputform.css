@@ -1,0 +1,18 @@
+label{
+    width: auto;
+   
+  
+}
+.input_container{
+   
+    padding: 0 10px;
+    
+}
+
+.Input{
+    border: none;
+    border-left: none;
+    outline: none;
+    width: 100%;
+   
+}
