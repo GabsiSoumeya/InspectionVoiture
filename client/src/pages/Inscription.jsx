@@ -1,12 +1,11 @@
 import React from 'react';
 import '../styles/inscription.css'
 import Input_INS from'../components/InputInscr'; 
-import { Formik } from "formik";
+import { Formik,Form , useFormik} from "formik";
 import * as Yup from "yup";
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import MDPInput from'../components/MotDePass';
-import Button from'../components/Button';
 import { Link } from "react-router-dom";
 
 
@@ -48,11 +47,14 @@ const Inscription = () => {
         axios({
             method: "post",
             url: `${process.env.REACT_APP_API_URL}api/user/register`,
-            data: {
-                firstName: payload.firstName,
+            data: { profile :{
+              firstName: payload.firstName,
                 lastName:payload.lastName,
-                email: payload.email,
-                telephone: payload.telephone,
+               
+                phone: payload.telephone,
+                gender:"FEMALE"
+            },
+                 email: payload.email,
                 password: payload.password,
             },
           })
@@ -74,6 +76,10 @@ const Inscription = () => {
             console.log("FAILED");
       });
         };
+
+        const test=(e)=>{
+          console.log("inTest",e)
+        }
     return (
       <>
  
@@ -90,11 +96,6 @@ const Inscription = () => {
           </div>
         </div>
 
-
-
-
-
-
        <div className="motlink">
       <Link to="/login">
         <p>Se connecter</p>
@@ -103,9 +104,9 @@ const Inscription = () => {
      
         <div className="INSCR">
             <h6 className="text-center">Inscription</h6>
-           
 
-            <Formik
+
+          <Formik
     const initialValues = {{
         firstName: "",
         lastName: "",
@@ -115,15 +116,18 @@ const Inscription = () => {
         confirmPassword: "",
         acceptTerms: false,
     }}
-    validationSchema={SignupSchema}
-    onSubmit={(values, { setSubmitting }) => {
-      Inscription(values);
-      setSubmitting(false);}
-    }
-    >
-    {({ handleChange, handleBlur, handleSubmit, values, errors, touched, isSubmitting,
-    }) => (
-        <form onSubmit={handleSubmit}>
+    onSubmit={async (values) => {
+      Inscription(values)
+    }}
+  >
+
+   
+{({ handleChange, handleBlur, values, errors, touched, isSubmitting, },formProps) => (
+        
+<Form >
+<label htmlFor="firstName">First Name</label>
+
+
 <Input_INS
                 name="firstName"
                 type="text"
@@ -134,6 +138,8 @@ const Inscription = () => {
     {errors.firstName && touched.firstName ? (
                 <span className="haserror">{errors.firstName}</span>
               ) : null}
+
+  <label htmlFor="lastName">Last Name</label>
 
 <Input_INS
                 name="lastName"
@@ -146,6 +152,8 @@ const Inscription = () => {
                 <span className="haserror">{errors.lastName}</span>
               ) : null}
 
+<label htmlFor="email">Email</label>
+
 <Input_INS
                 name="email"
                 type="text"
@@ -156,6 +164,8 @@ const Inscription = () => {
     {errors.email && touched.email ? (
                     <span className="haserror">{errors.email}</span>
                   ) : null}
+
+<label htmlFor="telephone">Telephone</label>
 
 <Input_INS
                 name="telephone"
@@ -201,13 +211,10 @@ const Inscription = () => {
                   <span className="haserror">{errors.tick}</span>
                 ) : null}
               </div>
-              <Button
-                text="S'inscrire"
-                type="submit"
-              />
+              <button type="submit">Submit</button>
         
              
-</form>
+</Form>
 )}
         </Formik>
          </div>

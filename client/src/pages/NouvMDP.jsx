@@ -27,7 +27,7 @@ const NouvMDP = () => {
       const NvMotdePass=()=>{
         axios({
             method:"post",
-            url:`${process.env.REACT_APP_API_URL} api/users/NouvMDP`,
+            url:`${process.env.REACT_APP_API_URL} api/user/forgot-password`,
             data: {
                 password:'',
                 confirmPassword:''

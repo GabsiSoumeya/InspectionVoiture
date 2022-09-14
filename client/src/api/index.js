@@ -16,3 +16,6 @@ export const fetchModele = () => axios.get(url + '/api/modele/getAll');
 
 export const register = () => axios.post(url+ '/api/user/register');
 export const login =() => axios.post(url+ '/api/user/login');
+export const postResetPassword =() => axios.post(url+'/api/auth/reset-password');
+export const postForgotPassword =() => axios.post(url+'/api/auth/forgot-password');
+

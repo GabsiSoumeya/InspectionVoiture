@@ -27,7 +27,7 @@ const ResetMDP = () => {
       const Reset=()=>{
         axios({
             method:"post",
-            url:`${process.env.REACT_APP_API_URL} api/users/reset`,
+            url:`${process.env.REACT_APP_API_URL} api/user/reset-password`,
             data: {
                 email:email,
             }
@@ -50,7 +50,7 @@ const ResetMDP = () => {
      <div className="b-left">
     <div className="b-left-wrapper">
       <Link to="/">
-        <img src={logo} className="logoauth" />
+        <img src={logo} className="logoauth" alt="" />
       </Link>
       <img src={defilant} alt="" className="b-image" />
 

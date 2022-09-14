@@ -9,7 +9,8 @@ const getmarques= async (req, res) => {
       status: "Success",
       count: marques.length,
       marques,
-    });
+    })
+    console.log('loooog ', marques);
   } catch (error) {
     return res.status(500).json({ msg: error.message });
   }

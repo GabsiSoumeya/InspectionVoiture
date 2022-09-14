@@ -1,7 +1,7 @@
 import React from 'react';
 import'../styles/login.css';
 import { useNavigate } from "react-router-dom";
-import { Formik } from "formik";
+import { Formik ,Form} from "formik";
 import * as Yup from "yup";
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa";
@@ -39,13 +39,14 @@ const SignupSchema=Yup.object().shape({
     })
       .then((response) => {
         if (response.status === 200) {
-          navigate ("/requests")
+          navigate ("/Profil")
         }
       })
       .catch((err) => {
         console.log(err.response);
         console.log("Failed");
       });
+      
     }
     return (
     <>
@@ -83,12 +84,14 @@ const SignupSchema=Yup.object().shape({
         console.log(values);
         Login(values);
         setSubmitting(false);
-      }
     }
+  }
     >
-      {({ handleChange, handleBlur, handleSubmit, values, errors, touched, isSubmitting,
+     {({ handleChange, handleBlur, handleSubmit, values, errors, touched, isSubmitting,
     }) => (
-        <form onSubmit={handleSubmit}>
+    
+        <Form onSubmit={handleSubmit}>
+          <label htmlFor="email">Email</label>
 
 <Input_INS
                   name="email"
@@ -101,6 +104,7 @@ const SignupSchema=Yup.object().shape({
                  {errors.email && touched.email ? (
              <div className="haserror">{errors.email}</div>
            ) : null}
+           <label htmlFor="password">Mot de Passe</label>
 
 <MDPInput
                 placeholder="Mot de passe"
@@ -152,12 +156,13 @@ const SignupSchema=Yup.object().shape({
                     icon={<FaFacebook size="20px" />}
                   />
                 </div>
-              </form>
+              </Form>
             )}
           </Formik>
         </div>
       </div>
     </>
   );
-  }
+  };
+
   export default Login;
